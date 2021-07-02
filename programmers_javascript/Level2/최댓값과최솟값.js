@@ -1,6 +1,7 @@
 function solution(s) {
 
     let afterStr = s.split(' ')
+    console.log(afterStr)
     
     const maxValue = (Math.max.apply(null, afterStr)).toString();
     const minValue = (Math.min.apply(null, afterStr)).toString();

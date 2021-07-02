@@ -14,7 +14,6 @@ function solution(s)
     }else{
         return 0;
     }
-
     // return stack.length==0 ? 1 : 0;
 }
 
